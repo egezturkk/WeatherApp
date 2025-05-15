@@ -1,27 +1,29 @@
-# 🌐 Android Web Browser App
+# ☁️ Android Weather App
 
-A multi-tab browser app built for Android using Java. Allows users to open, navigate, and close multiple web pages with dynamic WebView handling.
+A real-time weather application developed using Java and Android SDK. Fetches current weather data from OpenWeatherMap API and displays temperature, humidity, wind speed, and condition details.
 
 ## 🧠 Features
 
-- Multiple tab support with TabLayout  
-- Dynamic WebView creation and switching  
-- Address bar input and page loading  
-- Page title updates on each tab  
-- URL input handling and fallback to HTTPS  
+- Real-time weather data via OpenWeatherMap API  
+- City-based search functionality  
+- Temperature, humidity, wind speed, and condition icons  
+- JSON data parsing and thread-safe UI update  
+- Error handling for invalid input or failed connections
 
 ## 🚀 Technologies
 
 - Java  
 - Android SDK  
-- WebView, WebChromeClient, WebViewClient  
-- TabLayout (Material Components)  
-- HashMap for tab-WebView management
+- OpenWeatherMap REST API  
+- HTTP requests using `HttpURLConnection`  
+- JSON parsing using `JSONObject` and `JSONArray`  
+- UI: `TextView`, `ImageView`, `EditText`, `Button`, `Toast`  
+- Threading with `new Thread()` and `runOnUiThread()`
 
 ## ▶️ Run the App
 
 ```bash
-git clone https://github.com/yourusername/WebBrowserApp.git
+git clone https://github.com/yourusername/WeatherApp.git
 
 Then:
 
