@@ -23,7 +23,7 @@ A real-time weather application developed using Java and Android SDK. Fetches cu
 ## ▶️ Run the App
 
 ```bash
-git clone https://github.com/yourusername/WeatherApp.git
+git clone https://github.com/egezturkk/WeatherApp.git
 
 Then:
 
